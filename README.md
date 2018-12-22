@@ -3,7 +3,7 @@ This plugin allows you to use lexicons in modx and solves the problem with scrol
 
 Install:
 
-`npm i git+https://github.com/srsad/vueModx.git`
+`npm i --save-dev git+https://github.com/srsad/vueModx.git`
 
 ```js
 import vueModx from 'vuemodx'
@@ -17,11 +17,11 @@ Vue.use(vueModx, {
 
 ```php
 $this->addHtml('<script type="text/javascript">
-	    var Component= {
-			//...
-		    lang: ' . json_encode($this->modx->lexicon->fetch()) . '
-		    //...
-		};</script>');
+        var Component= {
+            //...
+            lang: ' . json_encode($this->modx->lexicon->fetch()) . '
+            //...
+        };</script>');
 ```
 Using
 ```js
