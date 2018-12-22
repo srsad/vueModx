@@ -1,0 +1,19 @@
+{
+  "name": "vuemodx",
+  "version": "1.0.0",
+  "description": "This plugin allows you to use lexicons in modx and solves the problem with scrolling in the component.",
+  "main": "./src/vueModx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srsad/vueModx.git"
+  },
+  "author": "srsad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srsad/vueModx/issues"
+  },
+  "homepage": "https://github.com/srsad/vueModx#readme"
+}
