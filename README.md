@@ -1,6 +1,8 @@
 # vueModx
 This plugin allows you to use lexicons in modx and solves the problem with scrolling in the component.
+
 Install:
+
 `npm i git+https://github.com/srsad/vueModx.git`
 
 ```js
@@ -12,6 +14,7 @@ Vue.use(vueModx, {
 })
 ```
 ---
+
 ```php
 $this->addHtml('<script type="text/javascript">
 	    var Component= {
