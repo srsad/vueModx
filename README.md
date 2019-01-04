@@ -9,20 +9,11 @@ Install:
 import vueModx from 'vuemodx'
 
 Vue.use(vueModx, {
-    lexicon: Component.lang, // object
+    lexicon: MODx.lang,
     appId: 'comonent-panel-home-div' // div id of your component
 })
 ```
----
 
-```php
-$this->addHtml('<script type="text/javascript">
-        var Component= {
-            //...
-            lang: ' . json_encode($this->modx->lexicon->fetch()) . '
-            //...
-        };</script>');
-```
 Using
 ```js
 this.$lexicon('lexicon_key')
